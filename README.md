@@ -5,18 +5,18 @@
 [Binary relation](https://en.wikipedia.org/wiki/Binary_relation) over sets X and Y is a new set of ordered pairs (x, y)
 consisting of elements x in X and y in Y.
 
-Let <img src="https://render.githubusercontent.com/render/math?math=(x, y) \in \tau \equiv x \tau y">
+Let <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{(x, y) \in \tau \equiv x \tau y}">
 
 Сhecking of belonging to:
 
 - [Reflexive relation](https://en.wikipedia.org/wiki/Reflexive_relation):
-  <img src="https://render.githubusercontent.com/render/math?math=\forall x \in M: x \tau x">
+  <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{\forall x \in M: x \tau x}">
 - [Symmetric relation](https://en.wikipedia.org/wiki/Symmetric_relation):
-  <img src="https://render.githubusercontent.com/render/math?math=\forall x, y \in M: x \tau y \Rightarrow y \tau x">
+  <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{\forall x, y \in M: x \tau y \Rightarrow y \tau x}">
 - [Antisymmetric relation](https://en.wikipedia.org/wiki/Antisymmetric_relation):
-  <img src="https://render.githubusercontent.com/render/math?math=\forall x, y \in M: x \tau y, y \tau x \Rightarrow x = y">
+  <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{\forall x, y \in M: x \tau y, y \tau x \Rightarrow x = y}">
 - [Transitive relation](https://en.wikipedia.org/wiki/Transitive_relation):
-  <img src="https://render.githubusercontent.com/render/math?math=\forall x, y, z \in M: x \tau y, y \tau z \Rightarrow x \tau z">
+  <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{\forall x, y, z \in M: x \tau y, y \tau z \Rightarrow x \tau z}">
 
 
 - [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation): if Binary Relation is Reflexive, Symmetric
@@ -26,8 +26,8 @@ Let <img src="https://render.githubusercontent.com/render/math?math=(x, y) \in \
 
 ## Example
 
-If <img src="https://render.githubusercontent.com/render/math?math=M = \{ 1, 2, 3, 4 \}">
-and <img src="https://render.githubusercontent.com/render/math?math=x \tau y \Leftrightarrow \text{(x %2B y is even sum)}">
+If <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{M = \{ 1, 2, 3, 4 \}}">
+and <img src="https://render.githubusercontent.com/render/math?math=\bbox[white]{x \tau y \Leftrightarrow \text{(x %2B y is even sum)}}">
 
 ```
 ----------M-------------------------------------------------------------------------------

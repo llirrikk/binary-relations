@@ -44,6 +44,6 @@ def main(M: tuple, tau: Callable[[int, int], bool]) -> None:
 
 
 if __name__ == "__main__":
-    M = (1, 2, 3, 4)
-    tau = lambda x, y: (x + y) % 2 == 0
+    M = (-1, 2, 3, 4)
+    tau = lambda x, y: x*y >= x-y
     main(M, tau)
